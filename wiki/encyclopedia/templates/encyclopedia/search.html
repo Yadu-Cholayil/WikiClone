@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+    <h1>Matching searches</h1>
+
+    <ul>
+        <li><a href="wiki/{{search}}/">{{search}}</a></li>
+    </ul>
+
+{% endblock %}
